@@ -49,6 +49,16 @@ services:
     networks:
       - laravel
 
+  # Mailhog service
+  mailhog:
+    image: mailhog/mailhog
+    container_name: aleph-mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    networks:
+      - laravel
+
   # PhpMyAdmin service
   phpmyadmin:
     image: phpmyadmin/phpmyadmin

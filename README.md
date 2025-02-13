@@ -57,7 +57,7 @@ Services started by these commands:
 - **PHP-FPM**: Runs Laravel.
 - **Nginx**: Serves the Laravel application.
 - **MySQL**: Database service.
-<!-- - **Mailhog** For email testing. -->
+- **Mailhog** For email testing.
 - **PhpMyAdmin**: Web interface for MySQL (disable in production).
 
 ### Step 3: Configure the Application
@@ -96,3 +96,12 @@ http://localhost:8080
 
 If everything is set up correctly, the default Laravel welcome page should appear.
 
+
+## Additional Commands
+
+### Mailhog
+
+Access Mailhog at:
+```
+http://localhost:8025/
+```
